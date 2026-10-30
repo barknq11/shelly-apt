@@ -1,0 +1,7 @@
+[Unit]
+Description=Shelly update check
+After=network-online.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/shelly-notifications

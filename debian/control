@@ -1,0 +1,21 @@
+Source: shelly-apt
+Section: admin
+Priority: optional
+Maintainer: blissin <138164480+barknq11@users.noreply.github.com>
+Build-Depends: debhelper-compat (= 13), python3
+Standards-Version: 4.7.0
+Homepage: https://github.com/barknq11/shelly-apt
+Rules-Requires-Root: no
+
+Package: shelly-apt
+Architecture: all
+Depends: ${misc:Depends}, python3 (>= 3.9), python3-apt, apt, dpkg, gpg
+Recommends: python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1 (>= 1.5), pkexec | policykit-1, flatpak
+Suggests: software-properties-common
+Description: unified package manager for APT, Flatpak and AppImage
+ Shelly-APT is a Debian port of Shelly, the Arch Linux package manager.
+ It manages APT packages, local .deb files, Flatpaks and AppImages from one
+ command-line tool (`shelly`) and one GTK4/libadwaita application
+ (`shelly-ui`), with shortcodes such as `shelly -Is htop`, transaction
+ previews, downgrades, holds, repository and signing-key management,
+ conffile review, backups and background update notifications.

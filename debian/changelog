@@ -1,0 +1,5 @@
+shelly-apt (0.1.0) unstable; urgency=medium
+
+  * Initial release: Debian/APT port of Shelly.
+
+ -- blissin <138164480+barknq11@users.noreply.github.com>  Fri, 30 Oct 2026 02:56:15 +0300

@@ -1,0 +1,16 @@
+[Desktop Entry]
+Type=Application
+Name=Shelly
+GenericName=Package Manager
+Comment=Install and update APT packages, Flatpaks and AppImages
+Exec=shelly-ui
+Icon=org.shellyapt.Shelly
+Terminal=false
+Categories=System;PackageManager;Settings;
+Keywords=apt;deb;package;software;install;update;flatpak;appimage;
+StartupNotify=true
+Actions=updates;
+
+[Desktop Action updates]
+Name=Check for Updates
+Exec=shelly-ui --page updates

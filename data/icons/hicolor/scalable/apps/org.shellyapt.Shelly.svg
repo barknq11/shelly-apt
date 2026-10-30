@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <defs>
+    <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#22c3d6"/>
+      <stop offset="1" stop-color="#0b6f86"/>
+    </linearGradient>
+    <linearGradient id="shell" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffe2b8"/>
+      <stop offset="1" stop-color="#ff9a6b"/>
+    </linearGradient>
+  </defs>
+  <!-- tile with GNOME-style bottom depth -->
+  <rect x="8" y="14" width="112" height="106" rx="26" fill="#08566a"/>
+  <rect x="8" y="8" width="112" height="106" rx="26" fill="url(#sea)"/>
+  <!-- light waves -->
+  <path d="M8,92 C30,84 46,100 68,92 S104,84 120,92 L120,88 C104,80 88,96 68,88 S30,80 8,88 Z" fill="#ffffff" opacity="0.12"/>
+  <!-- shell shadow, shell, ribs, hinge -->
+  <path d="M62.0,90.0 L17.3,75.5 Q13.0,65.0 24.0,62.4 Q23.1,51.1 34.4,52.0 Q37.0,41.0 47.5,45.3 Q53.4,35.7 62.0,43.0 Q70.6,35.7 76.5,45.3 Q87.0,41.0 89.6,52.0 Q100.9,51.1 100.0,62.4 Q111.0,65.0 106.7,75.5 Z" fill="#05475a" opacity="0.35" transform="translate(0,3)"/>
+  <path d="M62.0,90.0 L17.3,75.5 Q13.0,65.0 24.0,62.4 Q23.1,51.1 34.4,52.0 Q37.0,41.0 47.5,45.3 Q53.4,35.7 62.0,43.0 Q70.6,35.7 76.5,45.3 Q87.0,41.0 89.6,52.0 Q100.9,51.1 100.0,62.4 Q111.0,65.0 106.7,75.5 Z" fill="url(#shell)"/>
+  <g stroke="#e8673c" stroke-width="3" stroke-linecap="round" opacity="0.55" fill="none"><path d="M62.0,87.0 L24.0,62.4"/><path d="M62.0,87.0 L34.4,52.0"/><path d="M62.0,87.0 L47.5,45.3"/><path d="M62.0,87.0 L62.0,43.0"/><path d="M62.0,87.0 L76.5,45.3"/><path d="M62.0,87.0 L89.6,52.0"/><path d="M62.0,87.0 L100.0,62.4"/></g>
+  <path d="M53,88 Q62,84 71,88 L68,97 Q62,99 56,97 Z" fill="#f47c4c"/>
+  <!-- install badge -->
+  <circle cx="98" cy="94" r="16" fill="#05475a" opacity="0.35"/>
+  <circle cx="98" cy="92" r="15" fill="#ffffff"/>
+  <path d="M98,83 L98,98 M91.5,92 L98,98.5 L104.5,92" stroke="#0b6f86" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+</svg>

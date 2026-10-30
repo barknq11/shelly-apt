@@ -1,0 +1,18 @@
+#!/usr/bin/python3
+import os
+import sys
+
+# Never leave root-owned bytecode in a user-owned source tree.
+if os.geteuid() == 0:
+    sys.dont_write_bytecode = True
+
+# Run from a source checkout as well as from /usr/lib/shelly-apt.
+here = os.path.dirname(os.path.realpath(__file__))
+for candidate in (os.path.join(here, ".."), "/usr/lib/shelly-apt"):
+    if os.path.isdir(os.path.join(candidate, "shelly_apt")):
+        sys.path.insert(0, os.path.abspath(candidate))
+        break
+
+from shelly_apt.gui import main
+
+sys.exit(main())

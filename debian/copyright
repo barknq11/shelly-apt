@@ -1,0 +1,9 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: shelly-apt
+Source: https://github.com/barknq11/shelly-apt
+
+Files: *
+Copyright: 2026 blissin; design derived from Shelly by Seafoam Labs (https://github.com/Seafoam-Labs/Shelly-ALPM)
+License: GPL-3.0+
+ On Debian systems, the complete text of the GNU General Public License
+ version 3 can be found in /usr/share/common-licenses/GPL-3.

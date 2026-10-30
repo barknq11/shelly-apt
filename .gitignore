@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+dist/
+debian/shelly-apt/
+debian/.debhelper/
+debian/files
+debian/*.substvars
+debian/debhelper-build-stamp
+*.buildinfo
+*.changes
